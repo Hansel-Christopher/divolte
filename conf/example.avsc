@@ -5,6 +5,7 @@
   "fields": [
     { "name": "timestamp",  "type": "long" },
     { "name": "remoteHost", "type": "string"},
+    { "name": "sessionId", "type": ["null", "string"], "default": null },
     { "name": "eventType",  "type": ["null", "string"], "default": null },
     { "name": "location",   "type": ["null", "string"], "default": null },
     { "name": "localPath",  "type": ["null", "string"], "default": null },

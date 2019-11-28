@@ -3,6 +3,7 @@ mapping {
   map remoteHost() onto 'remoteHost'
   map eventType() onto 'eventType'
   map location() onto 'location'
+  map sessionId() onto 'sessionId'
   def locationUri = parse location() to uri
   def localUri = parse locationUri.rawFragment() to uri
   map localUri.path() onto 'localPath'
